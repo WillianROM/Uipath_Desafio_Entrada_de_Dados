@@ -1,0 +1,61 @@
+{
+  "name": "Uipath_Desafio_Entrada_de_Dados",
+  "description": "https://desafiosrpa.com.br/entrada-dados.html\r\n\r\nDesafio Entrada de Dados (Iniciante)\r\nVocê deve criar um workflow que seja capaz de:\r\n\r\nLer os dados do arquivo lista.xlsx da pasta local (Esse arquivo pode ser baixado pelo link acima)\r\nRegistrar as informações de ID, Primeiro Nome, Último Nome, Data de Nascimento, País, Data de Crédito, nos respectivos campos que estão nesse LINK.\r\nVocê deve observar que os campos podem mudar de posição na tela, além de outras dificuldades que você pode encontra",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.Mail.Activities": "[1.19.0]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.5-beta.3758343]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "89259143-7996-4dbf-8b1c-78e1ec5bcf6e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
